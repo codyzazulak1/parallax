@@ -9,7 +9,8 @@
  
 /* The Nivo Slider styles */
 .nivoSlider {
-	top: 10px;
+	top: -230px;
+	left: 15%;
 	border: 5px solid rgb(58, 133, 255);
 	border-radius: 30px;
 	position:relative;
