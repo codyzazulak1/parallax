@@ -7,6 +7,13 @@
     <script type="text/javascript" src='js/easing.js'></script>
     <script type="text/javascript" src='js/waypoints.js'></script>
     <script type="text/javascript" src='js/main.js'></script>
+    <script type="text/javascript" src='nivo-slider/jquery.nivo.slider.js'></script>
+    <link rel="stylesheet" type="text/css" href="nivo-slider/nivo-slider.css">
+    <script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider();
+});
+</script>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
@@ -33,23 +40,27 @@
           </div>
         </div>
         <span class="glyphicon glyphicon-chevron-down button" data-slide='2' title=""></span>
-        <!-- <a class="button" data-slide='2' title=""></a> -->
       </div>
 
       <div class="slide" id="slide2" data-slide='2' data-stellar-background-ratio='0.5'>
+
+        <div id="slider" class="nivoSlider">
+          <img src="img/p2pics/1.jpg" alt="" />
+          <img src="img/p2pics/2.jpeg" alt="" />
+          <img src="img/p2pics/3.jpg" alt="" />
+        </div>
+
+
         <span class="glyphicon glyphicon-chevron-down button" data-slide='3' title=""></span>
-        <!-- <a class="button" data-slide='2' title=""></a> -->
       </div>
 
       <div class="slide" id="slide3" data-slide='3' data-stellar-background-ratio='0.5'>
         <span class="glyphicon glyphicon-chevron-down button" data-slide='4' title=""></span>
-        <!-- <a class="button" data-slide='2' title=""></a> -->
       </div>
 
       <div class="slide" id="slide4" data-slide='4' data-stellar-background-ratio='0.5'>
         <h1 class="centerBig" data-stellar-ratio='3'>See You On The Road!</h1>
         <span class="glyphicon glyphicon-chevron-up button" data-slide='1' title=""></span>
-        <!-- <a class="button" data-slide='2' title=""></a> -->
       </div>
 
     </div>
