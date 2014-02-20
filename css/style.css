@@ -1,0 +1,106 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+
+.navigation {
+  padding: 0;
+  margin: 0;
+  background: #333;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  width: 100%; }
+  .navigation li {
+    display: inline-block;
+    padding: 5px 10px; }
+    .navigation li a {
+      color: #e1e1e1;
+      text-decoration: none; }
+      .navigation li a:hover {
+        color: white; }
+  .navigation .active {
+    background-color: #666666; }
+
+.main {
+  height: 100%; }
+
+.slide {
+  background-attachment: fixed;
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  padding: 30px; }
+
+.glyphicon {
+  position: absolute;
+  bottom: 50px; }
+
+span {
+  opacity: .5;
+  background-color: #333;
+  border-radius: 10%;
+  padding: 30px;
+  color: red;
+  font-size: 14px;
+  display: block;
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  margin-left: -35px; }
+  span:hover {
+    background-color: white; }
+
+.button_up {
+  display: block;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 55px;
+  left: 50%;
+  margin-left: -25px;
+  background-image: url(../img/down_arrow_up.png);
+  background-size: 50px 50px;
+  background-repeat: no-repeat; }
+
+#slide1 {
+  background-image: url(../img/slide1/bg.jpg);
+  z-index: 9; }
+
+.slide-1-logo {
+  text-align: center; }
+
+#slide2 {
+  background-image: url(../img/slide2/bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 9; }
+
+#slide3 {
+  background-image: url(../img/slide3/bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 10; }
+
+#slide4 {
+  background-image: url(../img/slide4/bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 8; }
+
+h1 {
+  color: white; }
+
+.centerBig {
+  font-size: 80px;
+  text-align: center;
+  top: 200px;
+  position: relative;
+  margin-left: -50px; }
