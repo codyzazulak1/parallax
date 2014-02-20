@@ -48,7 +48,7 @@ span {
   position: absolute;
   bottom: 25px;
   left: 50%;
-  margin-left: -35px; }
+  margin-left: -38px; }
   span:hover {
     background-color: white; }
 
@@ -65,42 +65,106 @@ span {
   background-repeat: no-repeat; }
 
 #slide1 {
-  background-image: url(../img/slide1/bg.jpg);
+  background-image: url(../img/slide1/intro2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   z-index: 9; }
 
 .slide-1-logo {
   text-align: center; }
 
 #slide2 {
-  background-image: url(../img/slide2/bg.jpg);
+  background-image: url(../img/slide2/m3.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  position: relative;
   z-index: 9; }
 
 #slide3 {
-  background-image: url(../img/slide3/bg.jpg);
+  background-image: url(../img/slide3/m4.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  position: relative;
   z-index: 10; }
 
 #slide4 {
-  background-image: url(../img/slide4/bg.jpg);
+  background-image: url(../img/slide4/m5.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  position: relative;
+  z-index: 8; }
+
+#slide5 {
+  background-image: url(../img/slide5/m66.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  z-index: 8; }
+
+#slide6 {
+  background-image: url(../img/slide6/end2.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
   z-index: 8; }
 
 h1 {
   color: white; }
+  h1.m3 {
+    font-weight: bold;
+    font-size: 100px;
+    color: white;
+    z-index: 999;
+    text-align: right;
+    position: relative; }
+  h1.m4 {
+    font-size: 100px;
+    color: white;
+    z-index: 999;
+    text-align: right;
+    position: relative; }
+  h1.m5 {
+    font-size: 100px;
+    color: white;
+    z-index: 999;
+    text-align: right;
+    position: relative; }
+  h1.m6 {
+    font-size: 100px;
+    color: white;
+    z-index: 999;
+    text-align: right;
+    position: relative; }
 
 .centerBig {
   font-size: 80px;
   text-align: center;
-  top: 200px;
+  top: 60px;
   position: relative;
   margin-left: -50px; }
+
+.upfront {
+  text-decoration: underline;
+  color: white;
+  right: -120px;
+  top: 60px;
+  z-index: 999;
+  text-align: right;
+  position: relative; }
+
+.grass {
+  float: right;
+  top: 379px;
+  position: relative; }

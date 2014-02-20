@@ -9,9 +9,9 @@
  
 /* The Nivo Slider styles */
 .nivoSlider {
-	top: -230px;
-	left: 15%;
-	border: 5px solid rgb(58, 133, 255);
+	top: -120px;
+	/*left: 15%;*/
+	border: 4px solid #e1e1e1;
 	border-radius: 30px;
 	position:relative;
 	width:500px;
@@ -46,6 +46,46 @@
 	filter:alpha(opacity=0); 
 	opacity:0;
 }
+
+.nivoSlider1 {
+	top: 10px;
+	/*left: 15%;*/
+	border: 4px solid #e1e1e1;
+	border-radius: 30px;
+	position:relative;
+	width:500px;
+	height:300px;
+	overflow: hidden;
+}
+.nivoSlider1 img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	max-width: none;
+}
+.nivo-main-image {
+	display: block !important;
+	position: relative !important; 
+	width: 100% !important;
+}
+
+/* If an image is wrapped in a link */
+.nivoSlider1 a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+	background:white; 
+	filter:alpha(opacity=0); 
+	opacity:0;
+}
+
 /* The slices and boxes in the Slider */
 .nivo-slice {
 	display:block;
