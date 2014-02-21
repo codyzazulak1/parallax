@@ -202,8 +202,109 @@ h1 {
   position: relative;
 }
 
-.grass {
-  float: right;
-  top: 379px;
+// SCARY //
+
+@charset "utf-8";
+/* CSS Document */
+
+/* ---------- ENTYPO ---------- */
+/* ---------- http://www.entypo.com/ ---------- */
+/* ---------- http://weloveiconfonts.com/ ---------- */
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+a[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+
+ul {
+  padding: 0;
+}
+
+/* ---------- SOCIAL ---------- */
+
+.social {
+  position: relative;
+  height: 3em;
+  width: 12em;
+}
+
+.social li {
+  display: block;
+  height: 4em;
+  line-height: 4em;
+  margin: -2em;
+  position: absolute;
+  -webkit-transition: -webkit-transform .5s;
+  -moz-transition: -moz-transform .5s;
+  -ms-transition: -ms-transform .5s;
+  -o-transition: -o-transform .5s;
+  transition: transform .5s;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  text-align: center;
+  width: 4em;
+}
+
+.social a {
+  opacity: 0.7;
+  color: red;
+  display: block;
+  height: 4em;
+  line-height: 4em;
+  text-align: center;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  width: 4em; 
+}
+
+.social li:hover {
+  -webkit-transform: rotate(405deg);
+  -moz-transform: rotate(405deg);
+  -ms-transform: rotate(405deg);
+  -o-transform: rotate(405deg);
+  transform: rotate(405deg);
+}
+
+.twitter {
+  background: #333;
+  opacity: 0.7;
+  bottom: 0;
+  left: 25%;
+}
+
+.linked-in {
+  background: #333;
+  opacity: 0.7;
+  bottom: 0;
+  left: 125%;
+}
+
+.facebook {
+  background: #333;
+  opacity: 0.7;
+  bottom: 0;
+  left: -25%;
+}
+
+.github {
+  background: #333;
+  opacity: 0.7;
+  bottom: 0;
+  left: 75%;
+}
+
+.socialButtons {
+  margin: auto;
+  margin-left: 575px;
+  margin-top: 00px;
   position: relative;
 }

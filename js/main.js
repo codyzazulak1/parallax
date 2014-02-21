@@ -56,4 +56,20 @@ jQuery(document).ready(function ($) {
         dataslide = $(this).attr('data-slide');
         goToByScroll(dataslide);
     });
+
+    $('.facebook').click(function(e) {
+        window.location = "https://www.facebook.com/codyzazulak";
+    });
+
+    $('.twitter').click(function(e) {
+        window.location = "https://twitter.com/CodyZazulak";
+    });
+
+    $('.github').click(function(e) {
+        window.location = "https://github.com/codyzazulak1";
+    });
+
+    $('.linked-in').click(function(e) {
+        window.location = "http://www.linkedin.com/in/codyzazulak1";
+    });
 });
