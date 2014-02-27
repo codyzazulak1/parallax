@@ -38,7 +38,7 @@ html, body {
   position: absolute;
   bottom: 50px; }
 
-span {
+span.button {
   opacity: .5;
   background-color: #333;
   border-radius: 10%;
@@ -112,7 +112,15 @@ span {
   position: relative;
   z-index: 8; }
 
-#slide6 {
+.slide6 {
+  position: relative;
+  z-index: 9;
+  padding: 0;
+  height: 100%;
+
+}
+
+#slide7 {
   background-image: url(../img/slide6/end2.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -251,3 +259,10 @@ ul {
   margin-left: 575px;
   margin-top: 00px;
   position: relative; }
+
+#map-canvas {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -99;
+}
