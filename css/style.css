@@ -120,7 +120,17 @@ span.button {
 
 }
 
-#slide7 {
+.slide7 {
+  background-image: url(../img/slide7/bg.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  z-index: 8; 
+}
+
+#slide8 {
   background-image: url(../img/slide6/end2.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -265,4 +275,22 @@ ul {
   width: 100%;
   position: absolute;
   z-index: -99;
+}
+
+.infoBox {
+  float: right;
+  top: -300px;
+  position: relative;
+  color: brown;
+}
+
+.gallery img{
+  position: relative;
+  top: 20px;
+  float: left;
+  margin: 13.81px;
+  width: 10.5%;
+  border: 2px solid black;
+  border-radius: 10%;
+  box-shadow: 5px 5px 20px;
 }

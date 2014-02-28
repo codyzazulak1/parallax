@@ -148,6 +148,17 @@
         $('#slider4').nivoSlider();
       });
       </script>
+    <script type="text/javascript" src='js/instafeed.js'>></script>
+    <script type="text/javascript">
+      var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'bmwlife', 
+        clientId: '9adfdeb82a644586af20f5454760b76f',
+        template: '<img src="{{image}}" />',
+        limit: 32
+      });
+      feed.run();
+    </script>
     <link rel="stylesheet" type="text/css" href="nivo-slider/nivo-slider.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -162,7 +173,8 @@
         <li data-slide='4'><a href="#">M5</a></li>
         <li data-slide='5'><a href="#">M6</a></li>
         <li data-slide='6'><a href="#">Map</a></li>
-        <li data-slide='7'><a href="#">Outro</a></li>
+        <li data-slide='7'><a href="#">Fans</a></li>
+        <li data-slide='8'><a href="#">Outro</a></li>
       </ul>
     </nav>
 
@@ -194,6 +206,26 @@
           <img src="img/s2pics/3.jpg" alt="" />
         </div>
 
+        <div class="container">
+          <div class="row">
+            <div class="infoBox">
+              <h2>430 Hp / Inline 6 Engine</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="infoBox">
+              <h2>0-60 Kp/h: 4.4s</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="infoBox">
+              <h5>MSRP: $84,000</h5>
+            </div>
+          </div>
+        </div>
+
+        
+
         <span class="glyphicon glyphicon-chevron-down button" data-slide='3' title=""></span>
       </div>
 
@@ -210,6 +242,25 @@
           <img src="img/s3pics/2.jpg" alt="" />
           <img src="img/s3pics/3.jpg" alt="" />
         </div>
+
+        <div class="container">
+          <div class="row">
+            <div class="infoBox">
+              <h2>430 Hp / Inline 6 Engine</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="infoBox">
+              <h2>0-60 Kp/h: 4.3s</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="infoBox">
+              <h5>MSRP: $85,000</h5>
+            </div>
+          </div>
+        </div>
+
 
         <span class="glyphicon glyphicon-chevron-down button" data-slide='4' title=""></span>
       </div>
@@ -228,6 +279,25 @@
           <img src="img/s4pics/3.jpg" alt="" />
         </div>
 
+        <div class="container">
+          <div class="row">
+            <div class="infoBox">
+              <h2>560 Hp / V8 Engine</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="infoBox">
+              <h2>0-60 Kp/h: 4.3s</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="infoBox">
+              <h5>MSRP: $109,000</h5>
+            </div>
+          </div>
+        </div>
+
+
         <span class="glyphicon glyphicon-chevron-down button" data-slide='5' title=""></span>
       </div>
 
@@ -245,24 +315,47 @@
           <img src="img/s5pics/3.jpg" alt="" />
         </div>
 
+        <div class="container">
+          <div class="row">
+            <div class="infoBox">
+              <h2>560 Hp / V8 Engine</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="infoBox">
+              <h2>0-60 Kp/h: 4.1s</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="infoBox">
+              <h5>MSRP: $119,000</h5>
+            </div>
+          </div>
+        </div>
+
+
         <span class="glyphicon glyphicon-chevron-down button" data-slide='6' title=""></span>
       </div>
 
 
 
       <!-- MAPS Page -->
-          
-          
-
             <div class="slide slide6" data-slide='6'><div id="map-canvas"></div><span class="glyphicon glyphicon-chevron-down button" data-slide='7' title=""></span>
             </div>
 
+      <!-- Insta Page -->
+      <div class="slide slide7" data-slide='7' data-stellar-background-ratio='0.5'>
+
+        <div id="instafeed" class="gallery"></div>
+
+        <span class="glyphicon glyphicon-chevron-down button" data-slide='8' title=""></span>
+      </div>
 
       <!-- END Page -->
-      <div class="slide" id="slide7" data-slide='7' data-stellar-background-ratio='0.5'>
+      <div class="slide" id="slide8" data-slide='8' data-stellar-background-ratio='0.5'>
         <h1 class="centerBig" data-stellar-ratio='3'>See You On The Road!</h1>
+        
         <!-- Social Container Start -->
-
         <div class="socialButtons" data-stellar-ratio='5'>
           <ul class="social">
 
@@ -273,8 +366,10 @@
 
           </ul>
         </div>
-
         <!-- Social Container End -->
+
+
+
         <span class="glyphicon glyphicon-chevron-up button" data-slide='1' title=""></span>
       </div>
 

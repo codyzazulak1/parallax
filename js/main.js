@@ -72,4 +72,5 @@ jQuery(document).ready(function ($) {
     $('.linked-in').click(function(e) {
         window.location = "http://www.linkedin.com/in/codyzazulak1";
     });
+
 });
