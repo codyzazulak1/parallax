@@ -177,11 +177,11 @@ h1 {
 .upfront {
   text-decoration: underline;
   color: white;
-  right: -120px;
-  top: 60px;
+  right: 1%;
+  top: 12%;
   z-index: 999;
-  text-align: right;
-  position: relative; }
+/*  float: right;*/
+  position: absolute; }
 
 /* CSS Document */
 /* ---------- ENTYPO ---------- */
@@ -266,9 +266,10 @@ ul {
 
 .socialButtons {
   margin: auto;
-  margin-left: 575px;
-  margin-top: 00px;
-  position: relative; }
+  left: -8em;
+  margin-left: 50%;
+  position: relative; 
+}
 
 #map-canvas {
   height: 100%;
@@ -288,7 +289,7 @@ ul {
   position: relative;
   top: 20px;
   float: left;
-  margin: 13.81px;
+  margin: 1%;
   width: 10.5%;
   border: 2px solid black;
   border-radius: 10%;
